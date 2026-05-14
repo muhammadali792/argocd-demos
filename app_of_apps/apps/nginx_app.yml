@@ -3,11 +3,6 @@ kind: Application
 metadata:
   name: nginx-child              # Child app name
   namespace: argocd
-  annotations:
-    notifications.argoproj.io/subscribe.on-sync-failed.email: "romanticangel512@gmail.com"
-    notifications.argoproj.io/subscribe.on-health-degraded.email: "romanticangel512@gmail.com"
-    notifications.argoproj.io/subscribe.on-sync-succeeded.email: "romanticangel512@gmail.com"
-    notifications.argoproj.io/subscribe.on-out-of-sync.email: "romanticangel512@gmail.com"
 spec:
   project: default
   source:
