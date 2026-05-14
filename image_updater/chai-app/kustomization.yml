@@ -6,7 +6,6 @@ kind: Kustomization
 resources:
   - deployment.yml
   - service.yml
-  - secret.yml
 
 # (optional) you can put commonLabels or namespace here if you want
 # commonLabels:
