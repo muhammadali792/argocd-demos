@@ -3,7 +3,3 @@ kind: Kustomization
 resources:
   - online_shop_deployment.yml  # Exact match hona chahiye
   - online_shop_svc.yml
-images:
-  - name: muhammadali792/online_shop   # Jo image deployment mein use ho rahi hai
-    newName: muhammadali792/online_shop 
-    newTag: "1.0.0"
