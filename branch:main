@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - muhammadali792/online_shop:v1.0.4
