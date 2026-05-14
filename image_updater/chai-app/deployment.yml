@@ -17,12 +17,6 @@ spec:
         image: trainwithshubham/chai-devops:v1.0.0
         ports:
         - containerPort: 80
-        env:
-        - name: VITE_GEMINI_API
-          valueFrom:
-            secretKeyRef:
-              name: chai-app-secret
-              key: VITE_GEMINI_API
         resources:
           requests:
             memory: "64Mi"
