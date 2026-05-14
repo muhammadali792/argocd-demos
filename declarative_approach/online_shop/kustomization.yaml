@@ -3,3 +3,7 @@ kind: Kustomization
 resources:
   - deployment.yaml  # apni sari files ke naam yahan likhein
   - service.yaml
+images:
+  - name: muhammadali792/online_shop   # Jo image deployment mein use ho rahi hai
+    newName: muhammadali792/online_shop 
+    newTag: "1.0.0"
