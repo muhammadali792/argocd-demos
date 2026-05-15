@@ -7,4 +7,4 @@ resources:
   - service.yml
 images:
   - name: muhammadali792/chai-devops
-    newTag: v1.0.0
+    newTag: v1.0.1
