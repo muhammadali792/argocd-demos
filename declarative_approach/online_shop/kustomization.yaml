@@ -5,4 +5,4 @@ resources:
   - online_shop_svc.yml
 images:
   - name: muhammadali792/online_shop
-    newTag: v1.0.5
+    newTag: v1.0.6
