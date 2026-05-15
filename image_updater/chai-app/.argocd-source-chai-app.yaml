@@ -1,1 +1,3 @@
-
+kustomize:
+  images:
+  - muhammadali792/chai-devops:v1.0.0
